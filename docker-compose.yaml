@@ -1,0 +1,31 @@
+
+services:
+  airflow-webserver:
+    build: .
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:password@host.docker.internal:5432/database_name
+      AIRFLOW__WEBSERVER__SECRET_KEY: 803ad203f7dc39cafb902e928902997a 
+    volumes:
+      - ./dags:/opt/airflow/dags
+    ports:
+      - "8080:8080"
+    command: webserver
+    networks:
+      - ml_pipeline
+
+  airflow-scheduler:
+    build: .
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:password@host.docker.internal:5432/database_name
+      AIRFLOW__WEBSERVER__SECRET_KEY: 803ad203f7dc39cafb902e928902997a 
+    volumes:
+      - ./dags:/opt/airflow/dags
+    command: scheduler
+    networks:
+      - ml_pipeline
+
+networks:
+  ml_pipeline:
+    driver: bridge
