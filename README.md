@@ -31,55 +31,14 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ## 1.1 Import libraries and load the dataset
 ![My Local Image](images/Capture.PNG)
 ---
-## Preprocess the data
+## 1.2 Preprocess the data
 ![My Local Image](images/Capture1.PNG)
+![My Local Image](images/Capture2.PNG)
 ---
 
 
 ---
-## Summary
 
-## 1. Platinum Customers 🏆
-
-Behavior: Extremely loyal, frequent purchases, and the highest total spend.
-
-Loyalty: Very high — short recency, high frequency, high monetary value.
-
-Engagement Strategy:
-
-Exclusive early access to new products.
-
-VIP loyalty programs.
-
-Personalized recommendations and premium support.
-
-## 2. Gold Customers 🥇
-
-Behavior: Regular buyers with good spending habits, but slightly less frequent or lower spend than Platinum.
-
-Loyalty: High — moderate recency, good frequency, high monetary value.
-
-Engagement Strategy:
-
-Targeted upselling and cross-selling campaigns.
-
-Seasonal discounts or bundle offers to encourage more frequent purchases.
-
-Invitations to special promotions to encourage transition to Platinum tier.
-
-## 3. Silver Customers 🥈
-
-Behavior: Occasional buyers, moderate spend, may need reactivation campaigns.
-
-Loyalty: Medium — longer recency, lower frequency, moderate monetary value.
-
-Engagement Strategy:
-
-Email reminders and personalized discount codes.
-
-Incentives like free shipping to encourage more purchases.
-
-Customer surveys to understand potential barriers to buying
 
 ---
 ## Reference
