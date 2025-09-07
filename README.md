@@ -35,12 +35,23 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ![My Local Image](images/Capture1.PNG)
 ![My Local Image](images/Capture2.PNG)
 ---
-
-
+## 1.3 Label encoding for categorical variables
+![My Local Image](images/Capture3.PNG)
 ---
-
-
+## 1.4 Train-Test Split
+![My Local Image](images/Capture5.PNG)
 ---
+## 1.5 Training the row model
+![My Local Image](images/Capture6.PNG)
+---
+## 1.6 Evaluate the model
+![My Local Image](images/Capture7.PNG)
+![My Local Image](images/Capture8.PNG)
+---
+In our project, class 1 was our main focus because it represents the customers who actually subscribed to the term deposit, which is the desired business outcome. Correctly identifying these customers is far more valuable than predicting the majority class 0, since missing a potential subscriber (false negative) means losing a real opportunity. On the other hand, predicting some extra false positives is less costly, as the marketing team can still reach out to those customers. For this reason, improving recall for class 1 was prioritized, even if it meant sacrificing a bit of overall accuracy.
+---
+## 1.7 Handle class imbalance with SMOTE
+![My Local Image](images/Capture9.PNG)
 ## Reference
 
 Unlocking Customer Segmentation Insights — Combining RFM Analysis with K-Means Clustering
