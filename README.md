@@ -1,4 +1,4 @@
-# Customer Segmentation Model
+# End-to-End ML Pipline
 
 ## Overview
 This project implements an end-to-end machine learning pipeline that integrates directly with a database. The pipeline retrieves raw data, processes and encodes features, applies a trained model, and saves the predictions back into a separate table within the same database. The goal of this project is to operationalize machine learning so predictions can be generated automatically and consistently, supporting real-world decision-making.
