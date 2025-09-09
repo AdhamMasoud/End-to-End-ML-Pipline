@@ -49,7 +49,7 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ![My Local Image](images/Capture8.PNG)
 ---
 #### In our project, class 1 was our main focus because it represents the customers who actually subscribed to the term deposit, which is the desired business outcome. Correctly identifying these customers is far more valuable than predicting the majority class 0, since missing a potential subscriber (false negative) means losing a real opportunity. On the other hand, predicting some extra false positives is less costly, as the marketing team can still reach out to those customers. For this reason, improving recall for class 1 was prioritized, even if it meant sacrificing a bit of overall accuracy.
----
+
 #### We started by training a baseline Random Forest classifier on the original imbalanced dataset. While the model achieved good overall accuracy, it struggled to correctly identify the minority class (1), which was our main interest.
 
 #### To address this, we applied SMOTE oversampling to balance the dataset. This improved recall for class 1 since the model could now learn more patterns from the minority class. However, while recall improved, the model was still not performing at the level we wanted.
@@ -84,10 +84,14 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ## 1.15 Drop the target variable from data2 (pipline data)
 ![My Local Image](images/Capture18.PNG)
 ---
----
 ## 1.16 Save the pipline data to PostgreSQL
 ![My Local Image](images/Capture19.PNG)
 ---
+
+# 2. Building pipline
+## 2.1 Making the DAG file
+![My Local Image](images/2.PNG)
+![My Local Image](images/3.PNG)
 ## Reference
 
 Unlocking Customer Segmentation Insights — Combining RFM Analysis with K-Means Clustering
