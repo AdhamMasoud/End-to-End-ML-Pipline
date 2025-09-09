@@ -92,9 +92,17 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ## 2.1 Making the DAG file
 ![My Local Image](images/2.PNG)
 ![My Local Image](images/3.PNG)
-## Reference
+---
+#### Note: Even though the threshold isn't saved with the model, it's hardcoded in my pipeline code. 
+---
+## 2.2 Making the Docker Compose file
+![My Local Image](images/4.PNG)
+---
+## 2.3 Making the Dockerfile
+![My Local Image](images/5.PNG)
+---
+## 2.4 Making the Requirements.txt
+![My Local Image](images/6.PNG)
 
-Unlocking Customer Segmentation Insights — Combining RFM Analysis with K-Means Clustering
-[Customer Segmentation Insights](https://ishla.medium.com/unlocking-customer-segmentation-insights-combining-rfm-analysis-with-k-means-clustering-45bdc6bf8555)  
 
 
