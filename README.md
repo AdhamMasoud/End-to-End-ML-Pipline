@@ -88,7 +88,7 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ![My Local Image](images/Capture19.PNG)
 ---
 
-# 2. Building pipline
+# 2. Building the pipline
 ## 2.1 Making the DAG file
 ![My Local Image](images/2.PNG)
 ![My Local Image](images/3.PNG)
@@ -103,6 +103,9 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ---
 ## 2.4 Making the Requirements.txt
 ![My Local Image](images/6.PNG)
+---
+
+# 3. Airflow UI
 
 
 
