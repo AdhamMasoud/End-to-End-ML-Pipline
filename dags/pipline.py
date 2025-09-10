@@ -15,7 +15,7 @@ def run_ml_pipeline():
         logging.info("Connecting to database...")
 
         # 1. Connect to DB (example with Postgres)
-        engine = sqlalchemy.create_engine("postgresql+psycopg2://postgres:AMPSXsql2@host.docker.internal:5432/from_db")
+        engine = sqlalchemy.create_engine("postgresql+psycopg2://postgres:password@host.docker.internal:5432/database")
         
         # 2. Load data
         logging.info("Loading data from database...")

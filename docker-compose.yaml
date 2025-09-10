@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:AMPSXsql2@host.docker.internal:5432/from_db
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:password@host.docker.internal:5432/database
       AIRFLOW__WEBSERVER__SECRET_KEY: 803ad203f7dc39cafb902e928902997a 
       AIRFLOW__CORE__HOSTNAME_CALLABLE: socket.gethostname
     volumes:
@@ -19,7 +19,7 @@ services:
     build: .
     environment:
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:AMPSXsql2@host.docker.internal:5432/from_db
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:password@host.docker.internal:5432/database
       AIRFLOW__WEBSERVER__SECRET_KEY: 803ad203f7dc39cafb902e928902997a 
       AIRFLOW__CORE__HOSTNAME_CALLABLE: socket.gethostname
     volumes:
