@@ -106,6 +106,13 @@ Link to dataset: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+m
 ---
 
 # 3. Airflow UI
-
-
+## 3.1 Running the pipline
+![My Local Image](images/c4.PNG)
+---
+## 3.2 The DB before the pipline vs after
+### Before
+![My Local Image](images/c2.PNG)
+### After
+![My Local Image](images/c3.PNG)
+---
 
